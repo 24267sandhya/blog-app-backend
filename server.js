@@ -9,8 +9,8 @@ const connectDB = require("./config/db");
 dotenv.config();
 
 //router import
-const userRoutes = require("../routes/userRoutes");
-const blogRoutes = require("../routes/blogRoutes");
+const userRoutes = require("./routes/userRoutes");
+const blogRoutes = require("./routes/blogRoutes");
 
 // mongodb connection
 connectDB();
